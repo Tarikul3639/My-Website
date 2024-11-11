@@ -1,0 +1,5 @@
+# _config.yml
+exclude:
+  - node_modules
+  - node_modules/balanced-match/README.md
+  - node_modules/**/*.md  # Excludes all markdown files in node_modules
