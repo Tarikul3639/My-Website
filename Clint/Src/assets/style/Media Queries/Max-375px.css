@@ -1,0 +1,78 @@
+@media only screen and (max-width: 376px) {
+  /* Home page */
+  .home_page {
+    height: 100vh; /* Ensure it fits the viewport height */
+    width: 100vw; /* Ensure it fits the viewport width */
+    display: flex;
+    flex-direction: column;
+    /* background: blue; */
+  }
+  .background_image_container {
+    height: 13rem;
+    width: 13rem;
+    transform: translate(38%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* overflow: hidden; */
+  }
+  .background_image {
+    height: 13rem;
+    width: 13rem;
+
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 20px #1c1b22 inset;
+    opacity: 0;
+    transition: opacity 6s;
+  }
+
+  /* Name intro section */
+  .intro {
+    margin-top: 60%;
+    font-size: 1.1rem;
+    padding-left: 10%;
+  }
+  .home_page h1 {
+    padding-left: 10%;
+    padding-top: 0.7%;
+    font-size: 1.8rem;
+  }
+  .details {
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 0.8%;
+    font-family: "Merriweather", serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+  }
+  /* Button customize section */
+  .buttons {
+    padding-left: 10%;
+    margin-top: 13%;
+  }
+  /* Button customize section */
+  .buttons {
+    padding-left: 10%;
+    margin-top: 13%;
+  }
+  .cvButton {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+  }
+  .resumeButton {
+    margin-left: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.5rem 0.7rem;
+  }
+  .cvButton i,
+  .resumeButton i {
+    display: none;
+  }
+  .social_icons {
+    transform: translate(25%, -150%);
+  }
+}
+/* #2F5D74 */

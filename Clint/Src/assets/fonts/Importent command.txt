@@ -1,0 +1,15 @@
+1. npm init -y
+2. npm i express nodemailer
+3. npm i -D nodemon
+
+4. "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+
+  },
+5.npm run dev
+
+Best color:
+1. #7C2ADE
+2. #08ff99
+3. #1c1b22

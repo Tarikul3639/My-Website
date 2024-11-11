@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1024px){
+
+  .body {
+    /* background-color: #d1d0dc; */
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    width: 100%;
+
+  } 
+  .container {
+    height: 100vh;
+    width: 100%;
+  } 
+  .nav_bar {
+        height: 3rem;
+        width: 100%;
+       
+      }
+    
+    .nav_bar_items {
+        margin-right: 4rem;
+      }
+      
+.nav_bar_items li {
+    font-size: 1rem;
+    margin-right: 3rem;
+  }
+/* Nab bar fixed when scrolling */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1c1b22;
+    z-index: 1000;
+  }
+/* Home page */
+.home_page {
+    height: 100%;
+    width: 100%;
+  }
+  /* Name intro section */
+  .intro {
+    padding-top: 13%;
+    font-size: 1.2rem;
+    padding-left: 11%;
+  }
+  .home_page h1 {
+    padding-left: 11%;
+    padding-top: 0.8%;
+    font-size: 2.6rem;
+    color: #08ff99;
+  }
+  .details {
+    padding-left: 11%;
+    padding-right: 45%;
+    padding-top: 0.8%;
+    font-family: "Merriweather", serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+  }
+  /* Button customize section */
+.buttons {
+  padding-left: 11%;
+  margin-top: 3%;
+}
+.cvButton {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.7rem 1.7rem;
+}
+.resumeButton {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.7rem 0.5rem;
+}
+.social_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 14em;
+  width: 4rem;
+  transform: translate(1.9rem, -14.6rem);
+}
+
+  .background_image_container {
+    height: 22rem;
+    width: 22rem;
+    position: absolute;
+    transform: translate(165%, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .background_image {
+    height: 22rem;
+    width: 22rem;
+    background-color: #1c1b22;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 20px #1c1b22 inset;
+    opacity: 0;
+    transition: opacity 6s;
+  }
+/* About section */
+
+.about_section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.profile_of_about_section {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.profile_of_about_section svg{
+  margin-left: -3rem;
+}
+
+/* Text div */
+.all_text_of_about_section {
+  height: 100%;
+  width: 55%;
+  margin-left: 0.5rem;
+}
+.My_self {
+  margin-right: 15%;
+  color: rgba(240, 248, 255, 0.892);
+  font-size: 1rem;
+}
+.Contact_Me_animated_button {
+  height: 2.5rem;
+  width: 8rem;
+}
+
+/* Project section */
+
+.project_section {
+  width: 100%;
+  height: 100%;
+}
+.project_section h1 {
+  margin-top: 1%;
+  font-size: 1.5rem;
+}
+/* Project container div */
+.project {
+  margin-top: 2%;
+  height: 70%;
+  width: 90%;
+}
+/* contact section......................... */
+.contact_section {
+  width: 100%;
+  height: 100%;
+
+}
+.contact_box {
+  margin-top: 4rem;
+  height: 420px;
+  width:400px;
+  margin-left: 0rem;
+  padding: 2rem;
+}
+.contact_me {
+  margin-top: 5rem;
+  margin-left: 5%;
+  background: #1c1b22;
+  width: auto;
+  height: 40%;
+}
+.contact_box h1 {
+  padding: 0rem 1rem 0.5rem 0rem;
+  font-size:2rem ;
+}
+.contact_box p {
+  padding-left: 0rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  padding-right: 0rem;
+
+}
+.NamePhoneEmail_Section {
+  padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: #08ff99; */
+}
+.contact_box .FirstName,
+.contact_box .LastName,
+.contact_box .email,
+.contact_box .phoneNumber {
+  margin-top: 1rem;
+  padding: 0.5rem 0.7rem 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+.select_option {
+  margin-top: 1rem;
+  margin-left: 0rem;
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+.massage {
+  margin: 0.5rem 0rem 0rem 0rem;
+  height: 15%;
+  width: 100%;
+  box-sizing: border-box;
+  text-indent: 0.5rem;
+  color: rgba(255, 255, 255, 0.905);
+}
+.sendMessage {
+  margin: 1rem 0rem 0rem 0rem;
+  height: 2.2rem;
+  width: 7.2rem;
+  border-radius: 0.9rem;
+  font-size: 0.79rem;
+  font-weight: 400;
+}
+
+/* .................. */
+  }
+  
